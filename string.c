@@ -28,6 +28,6 @@ int main(void)
 	for (i=0;i<2;++i)
 	
 		printf("string length of %s = %d\n", s[i], my_strlen(s[i]));
-	
+	printf("%s\n", my_strcpy(p1, "Hello, World !!!"));
 	return 0;
 }
